@@ -4,7 +4,7 @@ import os
 import matplotlib.pyplot as plt
 from tqdm import tqdm
 
-
+# 统计训练集（测试集）图片尺寸分布，并绘制饼图
 img_dir='/root/python_project/underwater_detection/mmdetection/data/underwater/train_all/image' # 存放图片的文件夹
 result_path='/root/python_project/underwater_detection/mmdetection/underwater_related_v2/my_tools/result' # 存放绘图结果的文件夹
 pie_title='train_all' # 绘制出来的饼图名称
