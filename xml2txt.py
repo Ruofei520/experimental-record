@@ -1,7 +1,7 @@
 import os
 import xml.etree.ElementTree as ET
 
-
+# xml2json.py 将比赛给的XML数据转化为YOLOv5所需的txt格式
 indir = '/root/python_project/underwater_detection/mmdetection/data/underwater/val/box'  # xml目录
 outdir = '/root/python_project/underwater_detection/yolov5/data/underwater/val/labels'  # txt目录
 def xml_to_txt(indir, outdir):
