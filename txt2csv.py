@@ -60,4 +60,3 @@ def txt2csv(txt_dir,csv_path):
 
 if __name__=='__main__':
     txt2csv(txt_dir,csv_path)
-
