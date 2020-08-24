@@ -8,7 +8,7 @@ import csv
 
 from tqdm import tqdm
 
-
+# mmdetection跑测试集，生成可提交的csv文件
 def main():
     parser = ArgumentParser()
     parser.add_argument('--img_dir',default='/root/python_project/underwater_detection/mmdetection/data/underwater/test-A-image', help='Image file')
