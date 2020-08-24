@@ -15,3 +15,5 @@
 ```xml2json.py``` 将比赛给的XML数据转化为COCO数据的标注格式,给mmdetection使用
 
 ```xml2json.py``` 将比赛给的XML数据转化为YOLOv5所需的txt格式
+
+```generate_dataset.py``` 生成与测试集分布相同的验证集，生成伪标签数据
