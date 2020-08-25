@@ -8,4 +8,5 @@
 |yolov5|27/30|0.4759||train_without_2k_num5428|val_num1200(同上)|**Baseline**|train 640 val 640 batch_size 8 约15min/epoch|
 |yolov5|28/30|0.4689||train_without_2k_num5428|val_num1200(同上)|**Baseline**|train 640 val 640 batch_size 4 约15min/epoch|
 |yolov5||||train_all|val_num1200|所有已知标签的数据全部做训练集|train 640 val 640 batch_size 8|
+|yolov5||||train_A|val_num1200|官方发布的A榜训练集|train 640 val 640 batch_size 8|
 
