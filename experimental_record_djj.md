@@ -10,5 +10,6 @@
 |yolov5|exp23_16/19|0.489||train_wmy|val_test2k_1200|train size:2048,val size:2048|
 |yolov5|exp23_17/19|0.4929||train_wmy|val_test2k_1200|train size:2048,val size:2048|
 |yolov5|exp23_18/19|0.4938||train_wmy|val_test2k_1200|train size:2048,val size:2048|
-|yolov5|exp23_19/19|0.4975|0.47900757|train_wmy|val_test2k_1200|train size:2048,val size:2048|
+|yolov5|exp23_19/19|0.4975|0.47900757|train_wmy|val_test2k_1200|train size:2048,val size:2048,test size:2656,TTA|
+|yolov5|exp23_19/19|0.4975|0.30054438|train_wmy|val_test2k_1200|train size:2048,val size:2048,test size:2656,TTA,iou_thres=0.94,agnostic_nms=True|
 
