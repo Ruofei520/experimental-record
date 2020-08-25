@@ -17,3 +17,10 @@
 ```xml2json.py``` 将比赛给的XML数据转化为YOLOv5所需的txt格式
 
 ```generate_dataset.py``` 生成与测试集分布相同的验证集，生成伪标签数据
+
+## 待尝试策略：
+- [ ] train all
+- [ ] 水草
+- [ ] 2k图和非2k图训练两个模型的专家系统，要调整下学习率，参考cascade。
+- [ ] A榜test集伪标签
+- [ ] A榜test集伪标签+B榜test集伪标签
