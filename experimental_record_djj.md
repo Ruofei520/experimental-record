@@ -11,4 +11,5 @@
 |yolov5|exp23_17/19|0.4929||train_wmy|val_test2k_1200|train size:2048,val size:2048|
 |yolov5|exp23_18/19|0.4938||train_wmy|val_test2k_1200|train size:2048,val size:2048|
 |yolov5|exp23_19/19|0.4975||train_wmy|val_test2k_1200|train size:2048,val size:2048|
+|yolov5|exp23_19/19|0.4975||train_wmy|val_test2k_1200|train size:2048,val size:2048|
 
