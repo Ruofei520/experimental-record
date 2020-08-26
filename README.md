@@ -24,3 +24,4 @@
 - [ ] 2k图和非2k图训练两个模型的专家系统，要调整下学习率，参考cascade。
 - [ ] A榜test集伪标签
 - [ ] A榜test集伪标签+B榜test集伪标签
+- [ ] 用YOLOv5聚类分析得anchor来处理cascade 
