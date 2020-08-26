@@ -7,7 +7,7 @@
 |yolov5|29/30|0.4639||train_without_2k_num5428|val_num1200(同上)|**Baseline**|train 640 val 640 batch_size 16 约14min/epoch|
 |yolov5|27/30|0.4759|0.46128412|train_without_2k_num5428|val_num1200(同上)|**Baseline**|train 640 val 640 batch_size 8 约15min/epoch|
 |yolov5|28/30|0.4689||train_without_2k_num5428|val_num1200(同上)|**Baseline**|train 640 val 640 batch_size 4 约15min/epoch|
-|yolov5|30/30|0.6474|0.48234922|train_all|val_num1200|全部已知标签的数据做训练集(包括2k图)|train 640 val 640 batch_size 8|
+**|yolov5|30/30|0.6474|0.48234922|train_all|val_num1200|全部已知标签的数据做训练集(包括2k图)|train 640 val 640 batch_size 8|**
 |yolov5|30/30|0.6064|0.46865816|train_A|val_num1200|官方发布的A榜训练集|train 640 val 640 batch_size 8|
 |yolov5|30/30|0.6513|0.47889794|train_all|val_num1200|全部已知标签的数据做训练集(包括2k图) + **水草**|train 640 val 640 batch_size 8|
 
