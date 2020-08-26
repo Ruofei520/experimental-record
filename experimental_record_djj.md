@@ -12,5 +12,5 @@
 |yolov5|exp23_18/19|0.4938||train_wmy|val_test2k_1200|train size:2048,val size:2048|
 |yolov5|exp23_19/19|0.4975|0.47900757|train_wmy|val_test2k_1200|train size:2048,val size:2048,test size:2656,TTA|
 |yolov5|exp23_19/19|0.4975|0.30054438|train_wmy|val_test2k_1200|train size:2048,val size:2048,test size:2656,TTA,iou_thres=0.94,agnostic_nms=True|
-|yolov5|exp28_24/30|0.4674|||train_wmy|val_test2k_1200|train 640 val 640 batch_size 2 worker 2(原写的8，但跑的时候是2),共跑了9.137个小时 17min/epoch|
+|yolov5|exp28_24/30|0.4674||train_wmy|val_test2k_1200|train 640 val 640 batch_size 2 worker 2(原写的8，但跑的时候是2),共跑了9.137个小时 17min/epoch|
 
