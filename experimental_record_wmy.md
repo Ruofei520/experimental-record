@@ -12,6 +12,6 @@
 |9|yolov5|30/30|0.6513|0.48108739|train_all|val_num1200|全部已知标签的数据做训练集(包括2k图) + **水草**|train 640 val 640 test 896 batch_size 8|
 |10|yolov5|15/15|0.46||train_without_2k_num5428|val_num1200(与测试集同分布)|对比baseline，验证epochs数目对结果的影响，并保存每个epoch的结果|img_size train 640 val 640 test 896  batch_size 8|
 |11|yolov5|20/20|0.4691|0.46670005|train_without_2k_num5428|val_num1200(与测试集同分布)|对比baseline，验证epochs数目对结果的影响，并保存每个epoch的结果|img_size train 640 val 640 test 896  batch_size 8|
-|12|yolov5|/30|||train_A|val_num1200||||
+|12|yolov5|/30|||train_A|val_num1200|train_A + **水草**||
 
 
