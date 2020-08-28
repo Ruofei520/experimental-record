@@ -1,9 +1,14 @@
 # experimental-record
 数据集说明：
+
 train_A:官方给的所有训练数据，共6575张
+
 train,val：官方给的训练数据集按照8:2划分的。
+
 train_wmy和val_test2k_1200是wmy划分的数据集，val_test2k_1200加入了53张2k图，和测试集同分布，且与训练集没有交集
+
 train_wmy:5428张，val_test2k_1200:1200。在wmy的容器中，是train、val
+
 |模型|epoch |验证结果|A榜评测结果|训练集|验证集|备注|
 |----|-----|---------|-----------------|------|----|---|
 |cascade|epoch11|0.507|0.49029607|train_wmy|val_test2k_1200|epoch 11,训练集和验证集不相交，验证集是wmy按照A榜测试集的分布划分出来的|
