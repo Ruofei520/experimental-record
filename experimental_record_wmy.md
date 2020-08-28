@@ -14,7 +14,7 @@
 |11|yolov5|20/20|0.4691|0.46670005|train_without_2k_num5428|val_num1200(与测试集同分布)|对比baseline，验证epochs数目对结果的影响，并保存每个epoch的结果|img_size train 640 val 640 test 896  batch_size 8|
 |12|yolov5|30/30|0.6064||train_A|val_num1200|train_A + **水草**|epochs 30|
 |13|yolov5||||||train_A + testA中非2k的伪标签 + 2k图||
-|14|yolov5|/20|||||train_A|val_num1200|train_A||
+|14|yolov5|/20|||train_A|val_num1200|单独train_A||
 |15|yolov5|/20|||train_A|val_num1200|train_A+**水草**||
 
 
