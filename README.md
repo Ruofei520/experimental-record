@@ -19,9 +19,9 @@
 ```generate_dataset.py``` 生成与测试集分布相同的验证集，生成伪标签数据
 
 ## 待尝试策略：
-- [ ] train all
-- [ ] 水草
+- [x] train_A:使用官方给的所有训练数据做训练，精度最高的，用的都是train_A。
+- [x] 水草：在yolo上尝试有提升，涨0.11个点左右，还未在cascade上测试。
 - [ ] 2k图和非2k图训练两个模型的专家系统，要调整下学习率，参考cascade。
-- [ ] A榜test集伪标签
+- [ ] A榜test集伪标签：
 - [ ] A榜test集伪标签+B榜test集伪标签
-- [ ] 用YOLOv5聚类分析得anchor来处理cascade 
+- [x] 用YOLOv5聚类分析得anchor来处理cascade:已实现，效果有提升，但精度和cascade相比还是要差一点。
