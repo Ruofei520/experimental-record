@@ -14,6 +14,8 @@ train_wmy:5428张，val_test2k_1200:1200。在wmy的容器中，是train、val
 |cascade|epoch11|0.507|0.49029607|train_wmy|val_test2k_1200|epoch 11,训练集和验证集不相交，验证集是wmy按照A榜测试集的分布划分出来的|
 |cascade|epoch10|0.532|0.49245347|train|val|使用的是8:2划分的训练集和验证集|
 |cascade|epoch11|0.534|0.49264280|train|val|使用的是8:2划分的训练集和验证集|
+|cascade|epoch11||**0.50403275**|train_A|未验证，直接提交测试|目前epoch11是cascade精度最高的|
+|cascade|epoch12||0.50280786|train_A|未验证，直接提交测试|
 |yolov5|exp5_37/50|0.5068|0.46138582|train|val|1.使用的是8:2划分的训练集和验证集；2.train size:640,val size:640,test size:896，并使用了TTA|
 |||||分割线：下面的train和val就是wmy划分的train和val，val是和测试集同分布的
 |yolov5|exp23_14/20|0.4878||train_wmy|val_test2k_1200|train size:2048,val size:2048|
@@ -29,4 +31,4 @@ train_wmy:5428张，val_test2k_1200:1200。在wmy的容器中，是train、val
 |yolov5|train_A_24/24|0.5873||train_A|val_test2k_1200|24epoch应该是过拟合，在3卡上跑了5.63h|
 |yolov5|exp65_train_12/15|0.4614|0.45826797|train_wmy|val_test2k_1200|12epoch并不是最佳epoch,欠拟合|
 |yolov5|exp65_train_15/15|0.46|0.46128544|train_wmy|val_test2k_1200|15epoch也不是最佳epoch,欠拟合|
-|yolov5|exp64_train_20/20|0.4691|0.46670005|train_wmy|val_test2k_1200|20epoch应该是最佳epoch|
+|yolov5|exp64_train_20/20|0.4691|0.46670005|train_wmy|val_test2k_1200|20epoch应该是yolo最佳epoch|
