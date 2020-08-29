@@ -16,5 +16,6 @@
 |13|yolov5||||||train_A + testA中非2k的伪标签 + 2k图||
 |14|yolov5|20/20|0.5727|0.47218400|train_A|val_num1200|单独train_A|epochs 20|
 |15|yolov5|20/20|0.5721|0.47227715|train_A|val_num1200|train_A+**水草**|epochs 20|
+|16|yolov5||||train_A|val_num1200|train_A+**水草**|epochs 20 img_size 2048|
 
 
