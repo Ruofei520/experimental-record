@@ -9,6 +9,8 @@ train_wmy和val_test2k_1200是wmy划分的数据集，val_test2k_1200加入了53
 
 train_wmy:5428张，val_test2k_1200:1200。在wmy的容器中，是train、val
 
+train_all:6628张，train_A+test2k=6575+53=6628张
+
 |模型|epoch |验证结果|A榜评测结果|训练集|验证集|备注|
 |----|-----|---------|-----------------|------|----|---|
 |cascade|train_epoch11|0.507|0.49029607|train_wmy|val_test2k_1200|epoch 11,训练集和验证集不相交，验证集是wmy按照A榜测试集的分布划分出来的|
