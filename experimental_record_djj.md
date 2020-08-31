@@ -19,6 +19,7 @@ train_all:6628张，train_A+test2k=6575+53=6628张
 |cascade|train_A_epoch10||0.50237704|train_A|未验证，直接提交测试|
 |cascade|train_A_epoch11||0.50403275|train_A|**未验证，直接提交测试，因为验证集也包括在训练数据中。**|**目前epoch11是cascade跑trian_A精度最高的**|
 |cascade|train_A_epoch12||0.50280786|train_A|未验证，直接提交测试|
+|cascade|train_A+waterweeds_epoch11||0.50232164|train_A+waterweeds|未验证，直接提交测试||**trian_A中加了水草后，下降0.17个点**|
 |cascade|train_A_ep11+test2k_ep2（test2k是指那53张2k图）||**0.51166442**|train_A_ep11+test2k_ep2|未验证，直接提交测试|**目前train_A_ep11+test2k_ep2是使用专家模型精度最高的**|
 |cascade|train_A_ep11+test2k_ep3||0.51089619|train_A_ep11+test2k_ep3|未验证，直接提交测试|专家模型，跑test，epoch2好于epoch3|
 |cascade|train_A_ep11+test2k_ep4||0.50999959|train_A_ep11+test2k_ep4|未验证，直接提交测试|专家模型，跑test，epoch2好于epoch4|
