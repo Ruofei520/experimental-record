@@ -18,6 +18,6 @@
 |15|yolov5|20/20|0.5721|0.47227715|train_A|val_num1200|train_A+**水草**|epochs 20|
 |16|yolov5||||train_A|val_num1200|train_A+**水草**|epochs 20 img_size 2048|
 |17|yolov5|20/20|0.6196||train_all|val_num1200|train_all + pesudo|epochs 20 batch_size 8 img_size 640|
-|18|yolov5|20/20|0.6145||train_all|val_num1200|train_all + 水草 + pesudo|epochs 20 batch_size 8 img_size 640|
+|18|yolov5|20/20|0.6145|0.47741272|train_all|val_num1200|train_all + 水草 + pesudo|epochs 20 batch_size 8 img_size 640|
 
 
