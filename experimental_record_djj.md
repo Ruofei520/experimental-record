@@ -17,7 +17,7 @@ train_all:6628张，train_A+test2k=6575+53=6628张
 |cascade|trian_epoch10|0.532|0.49245347|train|val|使用的是8:2划分的训练集和验证集|
 |cascade|train_epoch11|0.534|0.49264280|train|val|使用的是8:2划分的训练集和验证集|
 |cascade|train_A_epoch10||0.50237704|train_A|未验证，直接提交测试|
-|cascade|train_A_epoch11||**0.50403275baseline**|train_A|**未验证，直接提交测试，因为验证集也包括在训练数据中。**|**目前epoch11是cascade跑trian_A精度最高的**|
+|cascade|train_A_epoch11||**0.50403275-baseline**|train_A|**未验证，直接提交测试，因为验证集也包括在训练数据中。**|**目前epoch11是cascade跑trian_A精度最高的**|
 |cascade|train_A_epoch12||0.50280786|train_A|未验证，直接提交测试|
 |cascade|train_A+waterweeds_epoch11||0.50232164|train_A+waterweeds|未验证，直接提交测试||**trian_A中加了水草后，下降0.17个点**|
 |cascade|train_A+waterweeds_epoch12||0.50188082|train_A+waterweeds|未验证，直接提交测试|||
