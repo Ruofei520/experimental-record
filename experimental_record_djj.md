@@ -26,7 +26,7 @@ train_all:6628张，train_A+test2k=6575+53=6628张
 |cascade|train_A_ep11+test2k_ep4||0.50999959|train_A_ep11+test2k_ep4|未验证，直接提交测试|专家模型，跑test，epoch2好于epoch4|
 |cascade|train_A_ep11+train_all_ep2**wrong,train_all搞错了，用成了train_A，但可以用这个试试epoch1**||0.50315864|train_A_ep11+train_all_ep2|未验证，直接提交测试||
 |cascade|train_A_ep11+train_all_ep3**wrong,train_all搞错了，用成了train_A**||0.50127408|train_A_ep11+train_all_ep3|未验证，直接提交测试||
-|cascade|train_A_ep11+train_all_ep4**wrong,train_all搞错了，用成了train_A**||0.50163681|train_A_ep11+train_all_ep3|未验证，直接提交测试||
+|cascade|train_A_ep11+train_all_ep4**wrong,train_all搞错了，用成了train_A**||0.50163681|train_A_ep11+train_all_ep4|未验证，直接提交测试||
 |cascade|train_A_ep12+train_all_ep4**wrong,train_all搞错了，用成了train_A**||0.50278302|train_A_ep12+train_all_ep4|未验证，直接提交测试||
 |cascade|train_A_ep11+train_all_ep2**这次就对了**||0.51209783|train_A_ep11+train_all_ep2|未验证，直接提交测试|**专家模型，跑train_all优于只跑53张2k图,提升0.043%**|
 |yolov5|exp5_37/50|0.5068|0.46138582|train|val|1.使用的是8:2划分的训练集和验证集；2.train size:640,val size:640,test size:896，并使用了TTA|
