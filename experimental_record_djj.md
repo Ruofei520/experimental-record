@@ -20,9 +20,15 @@ train_all:6628张，train_A+test2k=6575+53=6628张
 |cascade|train_A_epoch11||0.50403275|train_A|**未验证，直接提交测试，因为验证集也包括在训练数据中。**|**目前epoch11是cascade跑trian_A精度最高的**|
 |cascade|train_A_epoch12||0.50280786|train_A|未验证，直接提交测试|
 |cascade|train_A+waterweeds_epoch11||0.50232164|train_A+waterweeds|未验证，直接提交测试||**trian_A中加了水草后，下降0.17个点**|
-|cascade|train_A_ep11+test2k_ep2（test2k是指那53张2k图）||**0.51166442**|train_A_ep11+test2k_ep2|未验证，直接提交测试|**目前train_A_ep11+test2k_ep2是使用专家模型精度最高的**|
+|cascade|train_A+waterweeds_epoch12||0.50188082|train_A+waterweeds|未验证，直接提交测试|||
+|cascade|train_A_ep11+test2k_ep2（test2k是指那53张2k图）**epoch1会不会更好？上次比赛是epoch2是最好的，好于epoch1**||**0.51166442**|train_A_ep11+test2k_ep2|未验证，直接提交测试|**目前train_A_ep11+test2k_ep2是使用专家模型精度最高的**|
 |cascade|train_A_ep11+test2k_ep3||0.51089619|train_A_ep11+test2k_ep3|未验证，直接提交测试|专家模型，跑test，epoch2好于epoch3|
 |cascade|train_A_ep11+test2k_ep4||0.50999959|train_A_ep11+test2k_ep4|未验证，直接提交测试|专家模型，跑test，epoch2好于epoch4|
+|cascade|train_A_ep11+train_all_ep2**wrong,train_all搞错了，用成了train_A，但可以用这个试试epoch1**||0.50315864|train_A_ep11+train_all_ep2|未验证，直接提交测试||
+|cascade|train_A_ep11+train_all_ep3**wrong,train_all搞错了，用成了train_A**||0.50127408|train_A_ep11+train_all_ep3|未验证，直接提交测试||
+|cascade|train_A_ep11+train_all_ep4**wrong,train_all搞错了，用成了train_A**||0.50163681|train_A_ep11+train_all_ep3|未验证，直接提交测试||
+|cascade|train_A_ep12+train_all_ep4**wrong,train_all搞错了，用成了train_A**||0.50278302|train_A_ep12+train_all_ep4|未验证，直接提交测试||
+|cascade|train_A_ep11+train_all_ep2**这次就对了**||0.51209783|train_A_ep11+train_all_ep2|未验证，直接提交测试|**专家模型，跑train_all优于只跑53张2k图,提升0.043%**|
 |yolov5|exp5_37/50|0.5068|0.46138582|train|val|1.使用的是8:2划分的训练集和验证集；2.train size:640,val size:640,test size:896，并使用了TTA|
 |||||分割线：下面的train和val就是wmy划分的train和val，val是和测试集同分布的
 |yolov5|exp23_14/20|0.4878||train_wmy|val_test2k_1200|train size:2048,val size:2048|
