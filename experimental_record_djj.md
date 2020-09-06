@@ -32,6 +32,7 @@ train_all:6628张，train_A+test2k=6575+53=6628张
 |cascade|train_A_ep11+train_all_ep4**这次就对了**||0.51355203|train_A_ep11+train_all_ep4|未验证，直接提交测试||
 |cascade|train_A_ep11+(train_A_ep12的基础上)train_all_ep2**这次就对了**||0.51382223|train_A_ep11+(train_A_ep12的基础上)train_all_ep4|未验证，直接提交测试|**专家模型，跑train_all优于只跑53张2k图,提升%**|
 |cascade|train_A_git_ep11+(train_A_ep12的基础上)train_all_ep2||**0.51574178**|train_A_git_ep11+(train_A_ep12的基础上)train_all_ep2||||
+|cascade|train_A_git_ep11+(train_A_ep12的基础上)train_all_ep4||0.51281013|train_A_git_ep11+(train_A_ep12的基础上)train_all_ep4||||
 |cascade|train_A_git_ep11+(train_A_git_ep12的基础上)train_all_git_ep2||0.51258398|||第12个epoch可能不是最好的选择，还训了从第11个epoch出发的，没有加DCN的，可以用这一个冲一冲|
 |cascade|train_A_53张2k图_test_A除去2k图之外的伪标签(跑train_A的epoch 11生成的伪标签)+(train_A_ep12的基础上)train_all_ep2||0.50987907|||**伪标签没有作用，反而掉点**|
 
