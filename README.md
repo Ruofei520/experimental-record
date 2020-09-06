@@ -6,10 +6,11 @@
 
 比赛结束时间：9月11号
 
-## B榜提交结果：
+## B榜提交结果(只有两次提交机会)：
 |模型|训练策略|评测结果|数据集使用|说明|
 |----|-------|-------|----|-----|
 |cascade|train_A_DCN_ep11+(在train_A_ep12的基础上)train_all_ep2|0.51654473|train_A_git_ep11_train_A_ep12_train_all_ep2|
+|cascade|train_A_DCN_ep12+(在train_A_ep12的基础上)train_all_ep2|**0.51674725**|train_A_git_ep11_train_A_ep12_train_all_ep2|
 
 
 ## 文件说明
