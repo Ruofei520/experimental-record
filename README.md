@@ -6,7 +6,24 @@
 
 比赛结束时间：9月11号
 
+## 最终排名：
+复现精度排名：第3
+
+复现速度排名：第12
+
+初赛排名：第8
+
+## 消融实验：
+|基础模型|DCN|Remote|
+|----|
+cascade rcnn+ResNext101+FPN+ROI Align(baseline)
+## 
+
 ## B榜提交结果(只有两次提交机会)：
+A榜排名第8
+
+B榜排名第4
+
 |模型|训练策略|评测结果|数据集使用|说明|
 |----|-------|-------|----|-----|
 |cascade|train_A_DCN_ep11+(在train_A_ep12的基础上)train_all_ep2|0.51654473|train_A_git_ep11_train_A_ep12_train_all_ep2|
