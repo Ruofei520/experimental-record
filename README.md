@@ -13,10 +13,6 @@
 
 初赛排名：第8
 
-## 消融实验：
-|基础模型|DCN|Remote|
-|----|
-cascade rcnn+ResNext101+FPN+ROI Align(baseline)
 ## 
 
 ## B榜提交结果(只有两次提交机会)：
